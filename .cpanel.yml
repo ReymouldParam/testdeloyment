@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pk5ixxuh5zp9/public_html/dev.reyferjobs.com
-    - rsync -a --update --exclude='.git' * $DEPLOYPATH
+    - /bin/cp Sample.txt $DEPLOYPATH
