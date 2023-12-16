@@ -1,0 +1,55 @@
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(/home/talent10th/public_html/lib/Cake/Error/ErrorHandler.php): failed to open stream: No such file or directory in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(): Failed opening '/home/talent10th/public_html/lib/Cake/Error/ErrorHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  set_error_handler() expects the argument (ErrorHandler::handleError) to be a valid callback in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/Configure.php on line 476
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(/home/talent10th/public_html/lib/Cake/Error/ErrorHandler.php): failed to open stream: No such file or directory in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(): Failed opening '/home/talent10th/public_html/lib/Cake/Error/ErrorHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  set_exception_handler() expects the argument (ErrorHandler::handleException) to be a valid callback in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/Configure.php on line 479
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(/home/talent10th/public_html/lib/Cake/Error/ErrorHandler.php): failed to open stream: No such file or directory in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(): Failed opening '/home/talent10th/public_html/lib/Cake/Error/ErrorHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  set_error_handler() expects the argument (ErrorHandler::handleError) to be a valid callback in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/Configure.php on line 476
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(/home/talent10th/public_html/lib/Cake/Error/ErrorHandler.php): failed to open stream: No such file or directory in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(): Failed opening '/home/talent10th/public_html/lib/Cake/Error/ErrorHandler.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  set_exception_handler() expects the argument (ErrorHandler::handleException) to be a valid callback in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/Configure.php on line 479
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(/home/talent10th/public_html/lib/Cake/Routing/Dispatcher.php): failed to open stream: No such file or directory in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Warning:  include(): Failed opening '/home/talent10th/public_html/lib/Cake/Routing/Dispatcher.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pk5ixxuh5zp9/public_html/lib/Cake/Core/App.php on line 547
+[30-Nov-2022 08:02:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Dispatcher' not found in /home/pk5ixxuh5zp9/public_html/app/webroot/index.php:106
+Stack trace:
+#0 /home/pk5ixxuh5zp9/public_html/index.php(41): require()
+#1 {main}
+  thrown in /home/pk5ixxuh5zp9/public_html/app/webroot/index.php on line 106
+[25-Mar-2023 10:45:09 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/lib/Cake/View/Helper/FormHelper.php on line 2063
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 310
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 331
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 334
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 342
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 342
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 353
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 353
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 353
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 364
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 364
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 364
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 364
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 375
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 375
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 375
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 375
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 375
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 386
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 386
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 386
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 386
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 386
+[25-Mar-2023 10:45:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/pk5ixxuh5zp9/public_html/app/View/Helper/JavascriptHelper.php on line 386
+[25-Mar-2023 10:45:10 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:45:20 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:45:24 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:45:56 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:46:15 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:46:19 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:46:29 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:46:59 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:47:04 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:47:10 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:47:14 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809
+[25-Mar-2023 10:47:18 UTC] PHP Notice:  Undefined index:  in /home/pk5ixxuh5zp9/public_html/app/View/Homes/index.ctp on line 809

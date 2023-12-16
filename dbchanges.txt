@@ -1,0 +1,39 @@
+01-09-2023
+    ALTER TABLE `tbl_alerts` ADD `skill` INT(11) NOT NULL AFTER `user_id`;
+    ALTER TABLE `tbl_alerts` CHANGE `designation` `designation` INT(11) NULL;
+
+06-09-2023
+    ALTER TABLE `tbl_users` CHANGE `jobseeker_id` `jobseeker_id` INT(11) NOT NULL DEFAULT '0';
+    ALTER TABLE `tbl_users` CHANGE `employer_id` `employer_id` INT(11) NOT NULL DEFAULT '0';
+    ALTER TABLE `tbl_users` CHANGE `abn` `abn` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+
+    UPDATE `tbl_emailtemplates` SET `template` = '<!-- Begin Middle Content -->\r\n<table width=\"100%\">\r\n    <tbody>\r\n        <tr>\r\n            <td style=\"color:#434343; font:bold 15px Arial, Helvetica, sans-serif; margin:0; padding:10px 0 0;\"><b style=\"color:#000000;\">Dear</b> [!username!],</td>\r\n        </tr>\r\n        <tr>\r\n            <td style=\"color:#434343; font-size:13px; line-height:18px;\">\r\n            <p style=\"color:#434343; margin:10px 0 0;\"><b style=\"color:#000000;\">Welcome to</b> [!SITE_TITLE!].</p>\r\n            <p style=\"color:#434343; margin:10px 0 0;\">We are pleased to announce that your jobseeker account has been created successfully.</p>\r\n            <p style=\"color:#434343; margin:10px 0 0;\"><strong style=\"width:150px;\">Email Address:</strong> [!email!]</p>\r\n           \r\n          <p style=\"color:#434343; margin:10px 0 0;\">Please click the link below to activate your account.</p>\r\n\r\n<p style=\"color:#434343; margin: 10px 0 0;\"><a style=\"text-decoration:underline;\" href=\"[!link!]\">Click Here</a> to activate your account. </p>\r\n            </td>\r\n        </tr>\r\n    </tbody>\r\n</table>\r\n<!-- End Middle Content -->' WHERE `tbl_emailtemplates`.`id` = 13;
+
+    need to remove - <p style="color:#434343; margin:10px 0 0;"><strong style="width:150px;">Password:</strong> [!password!]</p>
+
+11-09-2023
+    ALTER TABLE `tbl_jobs` ADD `description_url` VARCHAR(255) NULL DEFAULT NULL AFTER `description`;
+    ALTER TABLE `tbl_jobs` ADD `description_document` VARCHAR(255) NULL DEFAULT NULL AFTER `description_url`;
+
+13-09-2023
+    ALTER TABLE `tbl_skills` ADD `created_by` INT(11) NULL DEFAULT NULL AFTER `status`;
+
+14-09-2023
+    ALTER TABLE `tbl_categories` ADD `created_by` INT(11) NULL DEFAULT NULL AFTER `keywords`;
+    ALTER TABLE `tbl_keywords` CHANGE `course_id` `course_id` INT(13) NOT NULL DEFAULT '0';
+
+15-09-2023
+    ALTER TABLE `tbl_job_applies` ADD `global_new_status` TINYINT(4) NOT NULL DEFAULT '0' AFTER `new_status`;
+
+
+19-09-2023
+    ALTER TABLE `tbl_alert_jobs` ADD `alert_id` INT(11) NOT NULL AFTER `email_address`;
+    ALTER TABLE `tbl_alert_jobs` ADD `view_status` TINYINT(4) NOT NULL DEFAULT '0' AFTER `status`;
+
+22-09-2023
+    ALTER TABLE `tbl_users` ADD `deactivate_date` DATE NULL DEFAULT NULL AFTER `verification_date`;
+
+04-10-2023
+    ALTER TABLE `tbl_jobs` ADD `work_place_type` ENUM('Onsite', 'Remote', 'Hybrid') NULL DEFAULT 'Onsite' AFTER `emp_reference_id`;
+    ALTER TABLE `tbl_certificates` ADD `is_cv` TINYINT(1) NOT NULL DEFAULT '0' AFTER `type`;
+

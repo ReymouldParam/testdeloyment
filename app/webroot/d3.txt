@@ -1,0 +1,1 @@
+Please check your email for activation link to activate your account. If you have not received the activation link, click on the button below for us to resend the activation link.<a href="/users/resendEmail"><input class="btn_same btn btn-primary" type="button" value="Resend"></a><br>
