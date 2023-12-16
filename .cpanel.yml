@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pk5ixxuh5zp9/public_html/dev1.gruhalayaconstructions.com
+    - export DEPLOYPATH=/home/pk5ixxuh5zp9/public_html/oldui.reyferjobs.com
     - /bin/cp -R * $DEPLOYPATH
